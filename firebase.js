@@ -8,7 +8,7 @@ import { getFirestore } from 'firebase/firestore'
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyCVU5aG7hGHgwJLDZstQzQ7sOgpDNVF3IA",
+  apiKey: process.env.FIREBASE_API_KEY,
   authDomain: "inventory-nextjs-231fa.firebaseapp.com",
   projectId: "inventory-nextjs-231fa",
   storageBucket: "inventory-nextjs-231fa.appspot.com",
